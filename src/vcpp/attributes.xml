@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<attributes>
+	<archer>
+		<cost> 11 </cost>
+		<health> 12 </health>
+		<attackDamage> 13 </attackDamage>
+		<attackRange> 14 </attackRange>
+		<movementRange> 15 </movementRange>
+	</archer>
+	
+	<healer>
+		<cost> 21 </cost>
+		<health> 22 </health>
+		<attackDamage> 23 </attackDamage>
+		<attackRange> 24 </attackRange>
+		<movementRange> 25 </movementRange>
+	</healer>
+	
+	<king>
+		<cost> 31 </cost>
+		<health> 32 </health>
+		<attackDamage> 33 </attackDamage>
+		<attackRange> 34 </attackRange>
+		<movementRange> 35 </movementRange>
+	</king>
+	
+	<paladin>
+		<cost> 41 </cost>
+		<health> 42 </health>
+		<attackDamage> 43 </attackDamage>
+		<attackRange> 44 </attackRange>
+		<movementRange> 45 </movementRange>
+	</paladin>
+	
+	<soldier>
+		<cost> 51 </cost>
+		<health> 52 </health>
+		<attackDamage> 53 </attackDamage>
+		<attackRange> 54 </attackRange>
+		<movementRange> 55 </movementRange>
+	</soldier>
+</attributes>

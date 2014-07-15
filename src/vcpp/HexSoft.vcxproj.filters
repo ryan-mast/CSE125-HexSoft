@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{693e7447-a725-4584-b1d7-8ce8a87e08a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{fc1c9d3a-d81d-48eb-a967-658ea5566b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{1d892594-2f37-44d2-a561-2003122246bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\Scenegraph">
+      <UniqueIdentifier>{20064ecd-3091-4386-b6ec-f342cdc0f534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\Geometry">
+      <UniqueIdentifier>{f2982a41-b733-40a5-9b0f-f65a846d2f5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\network\NetClient.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Character.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Player.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\TileBoard.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\TinyXML\tinystr.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\TinyXML\tinyxml.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\TinyXML\tinyxmlerror.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\TinyXML\tinyxmlparser.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphics\SceneGraph\MatrixTransform.cpp">
+      <Filter>graphics\Scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphics\SceneGraph\SGGroup.cpp">
+      <Filter>graphics\Scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphics\SceneGraph\Geode.cpp">
+      <Filter>graphics\Scenegraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphics\Geometry\Tile.cpp">
+      <Filter>graphics\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphics\Geometry\Cube.cpp">
+      <Filter>graphics\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphics\TextureLoader.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphics\Util.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphics\Vertex.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphics\Geometry\Mesh.cpp">
+      <Filter>graphics\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\graphics\Renderer.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\network\NetClient.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Character.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Player.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\TileBoard.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TinyXML\tinystr.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TinyXML\tinyxml.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\SceneGraph\Geode.h">
+      <Filter>graphics\Scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\SceneGraph\MatrixTransform.h">
+      <Filter>graphics\Scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\SceneGraph\Node.h">
+      <Filter>graphics\Scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\SceneGraph\SGGroup.h">
+      <Filter>graphics\Scenegraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\Geometry\Tile.h">
+      <Filter>graphics\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\Geometry\Cube.h">
+      <Filter>graphics\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\TextureLoader.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\Util.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\Vertex.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\PoundDefines.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\SG.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\Geometry\Shapes.h">
+      <Filter>graphics\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\graphicsStuff.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\graphics\Geometry\Mesh.h">
+      <Filter>graphics\Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

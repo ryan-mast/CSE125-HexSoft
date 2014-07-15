@@ -1,0 +1,2 @@
+cd enet; ./configure && make && make install
+g++ -o master network/NetServer.h network/Master.cpp -Lenet/.libs -lenet
